@@ -1,0 +1,34 @@
+---
+permalink: /about
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Whitepage</title>
+    <link rel="shortcut icon" href="/assets/icon.png">
+    <link rel="stylesheet" type="text/css" href="/assets/main.css" charset="utf-8" />
+  </head>
+  <body>
+    <main>
+      <div class="flex flex-wrap items-end tc">
+        <a id="miki" class="w-50" href="#"><div class="ba vh-75">miki</div></a>
+        <a id="rizal" class="w-50" href="#"><div class="ba vh-75">rizal</div></a>
+      </div>
+    </main>
+
+    <audio preload="auto" id="audio-miki">
+      <source src={{ "/assets/audio/mirarizki.mp3" | relative_url }}></source>
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio preload="auto" id="audio-rizal">
+      <source src={{ "/assets/audio/rizalnugraha.mp3" | relative_url }}></source>
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/assets/audio.js"></script>
+  </body>
+</html>

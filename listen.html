@@ -13,25 +13,45 @@
   <body>
     <main>
       <div class="vh-100 flex flex-wrap items-center">
-        <a id="hutan" class="w-third" href="/listen/hutan"><div class="ba vh-50">hutan</div></a>
-        <a id="kota" class="w-third" href="/listen/kota"><div class="ba vh-50">kota</div></a>
-        <a id="pantai" class="w-third" href="/listen/pantai"><div class="ba vh-50">pantai</div></a>
+        <a id="hutan" class="w-20" href="/listen/hutan"><div class="ba vh-100">hutan</div></a>
+        <a id="pemukiman" class="w-20" href="/listen/pemukiman"><div class="ba vh-100">pemukiman</div></a>
+        <a id="pasar" class="w-20" href="/listen/pasar"><div class="ba vh-100">pasar</div></a>
+        <a id="work" class="w-20" href="/listen/work"><div class="ba vh-100">work</div></a>
+        <a id="transportasi" class="w-20" href="/listen/transportasi"><div class="ba vh-100">transportasi</div></a>
       </div>
     </main>
 
     <audio preload="auto" id="audio-hutan">
-      <source src={{ "/assets/01 welcome.mp3" | relative_url }}></source>
-      <source src={{ "/assets/01 welcome.ogg" | relative_url }}></source>
+      <source src={{ "/assets/audio/hutan/MASTER-HUTAN.mp3" | relative_url }}></source>
+      <source src={{ "/assets/audio/hutan/MASTER-HUTAN.ogg" | relative_url }}></source>
       Your browser does not support the audio element.
     </audio>
 
-    <audio preload="auto" id="audio-kota">
-      <source src={{ "/assets/02 Naration.mp3" | relative_url }}></source>
-      <source src={{ "/assets/02 Naration.ogg" | relative_url }}></source>
+    <audio preload="auto" id="audio-pemukiman">
+      <source src={{ "/assets/audio/pemukiman/MASTER-PEMUKIMAN.mp3" | relative_url }}></source>
+      <source src={{ "/assets/audio/pemukiman/MASTER-PEMUKIMAN.ogg" | relative_url }}></source>
       Your browser does not support the audio element.
     </audio>
 
-    <audio preload="auto" id="audio-pantai">
+    <audio preload="auto" id="audio-pasar">
+      <source src={{ "assets/audio/pasar/MASTER-PASAR.mp3" | relative_url }}></source>
+      <source src={{ "assets/audio/pasar/MASTER-PASAR.ogg" | relative_url }}></source>
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio preload="auto" id="audio-work">
+      <source src={{ "assets/audio/work/MASTER-WORK.mp3" | relative_url }}></source>
+      <source src={{ "assets/audio/work/MASTER-WORK.ogg" | relative_url }}></source>
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio preload="auto" id="audio-transportasi">
+      <source src={{ "assets/audio/transportasi/MASTER-TRANSPORTASI.mp3" | relative_url }}></source>
+      <source src={{ "assets/audio/transportasi/MASTER-TRANSPORTASI.ogg" | relative_url }}></source>
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio preload="auto" id="audio-pasar">
       <source src={{ "assets/03 listen.mp3" | relative_url }}></source>
       <source src={{ "assets/03 listen.ogg" | relative_url }}></source>
       Your browser does not support the audio element.
