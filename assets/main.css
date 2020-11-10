@@ -8,6 +8,11 @@ main * {
   opacity: 0
 }
 
+.shadow {
+  color: white;
+  text-shadow: 2px 2px 2px #bababa
+}
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%
